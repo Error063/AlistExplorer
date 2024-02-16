@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alist Explorer</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="access_header">Alist Explorer设置</string>
+
+    <string name="Alist_url_title">Alist 页面地址（下一次启动时生效）</string>
+    <string name="user_agent_title">自定义用户代理（留空为默认设置）</string>
+
+</resources>
