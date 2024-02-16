@@ -2,16 +2,18 @@
 
     <PreferenceCategory app:title="@string/access_header">
 
+
+
         <EditTextPreference
             app:key="alist_url"
             app:title="@string/Alist_url_title"
-            app:useSimpleSummaryProvider="true"
+            app:summary="@string/Alist_url_desp"
             app:defaultValue="http://alist.example.com"/>
 
         <EditTextPreference
             app:key="user_agent"
             app:title="@string/user_agent_title"
-            app:useSimpleSummaryProvider="true"
+            app:summary="@string/user_agent_desp"
             app:defaultValue="pan.baidu.com" />
 
     </PreferenceCategory>
