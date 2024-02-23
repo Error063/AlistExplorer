@@ -1,13 +1,19 @@
+<!DOCTYPE resources [
+<!ENTITY app_name "Alist Explorer">
+]>
 <resources>
-    <string name="app_name">Alist Explorer</string>
+    <string name="app_name">&app_name;</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
-    <string name="access_header">Alist Explorer设置</string>
+    <string name="setting_header">设置</string>
+    <string name="about_header">关于</string>
 
     <string name="Alist_url_title">Alist 服务器地址</string>
     <string name="user_agent_title">自定义用户代理</string>
+    <string name="version_title">&app_name; 版本</string>
 
     <string name="Alist_url_desp">用于指定Alist Explorer访问的服务器，如：https://alist.example.com，该设置将在下次启动时生效。</string>
     <string name="user_agent_desp">用于指定希望Alist Explorer使用的用户代理（User Agent），留空为默认设置，该设置将在下次启动时生效。</string>
+    <string name="reload_app">重启 &app_name;</string>
 
 </resources>
